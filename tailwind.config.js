@@ -36,6 +36,7 @@ module.exports = {
       },
       backgroundImage: {
         hero: "url('/img/hero/hero-bg.png')",
+        Hero: "url('/img/hero/new-bg.jpg')",
         pets: "url('/img/pets/pets-bg.png')",
         services: "url('/img/services/bg.png')",
         adoption: "url('/img/adoption/bg.png')",

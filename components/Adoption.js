@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Adoption = () => {
-  return <div>Adoption</div>;
+  return 
 };
 
 export default Adoption;
