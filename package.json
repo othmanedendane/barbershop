@@ -1,8 +1,11 @@
 {
+  "homepage": "https://othmanedendane.github.io/barber",
   "name": "petshop-landing",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -15,6 +18,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
+    "gh-pages": "^5.0.0",
     "postcss": "^8.4.19",
     "react-icons": "^4.7.1",
     "swiper": "^8.4.5",
